@@ -1,7 +1,7 @@
 # Programming Principles 1 - 2025 Fall Semester
 
 ## C++ Laboratory Works  
-This repository contains all laboratory works for the course *Programming Principles 1*, aligned with the official syllabus. Each lab includes solutions and links to the E-judge platform where tasks were completed.
+This repository contains all laboratory works for the course **Programming Principles 1** at **Kazakh-British Technical University** for the Fall 2025 semester, aligned with the official syllabus. Each lab includes solutions and links to the E-judge platform where tasks were completed.
 
 ## Table of Contents
 

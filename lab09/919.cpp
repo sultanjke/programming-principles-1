@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    cin.ignore();  // clear newline
+    cin.ignore();
 
     queue<string> q;
 
@@ -15,7 +15,6 @@ int main() {
         getline(cin, cmd);
 
         if (cmd.rfind("ARRIVE", 0) == 0) {
-            // Extract the name after "ARRIVE "
             string name = cmd.substr(7);
             q.push(name);
             cout << name << " joined the line" << endl;

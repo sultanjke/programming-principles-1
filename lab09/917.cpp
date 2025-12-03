@@ -30,19 +30,19 @@ int main() {
                 num.push_back(s[i]);
                 i++;
             }
-            i--;  // fix after loop
+            i--;
             output.push_back(num);
         }
         else if (c == '(') {
             st.push(c);
-        }        else if (c == ')') {
+        }
+        else if (c == ')') {
             while (!st.empty() && st.top() != '(') {
                 output.push_back(string(1, st.top()));
                 st.pop();
             }
-            st.pop();  // remove '('
+            st.pop();
         }
-        // operator
         else if (isOperator(c)) {
             while (!st.empty() && isOperator(st.top()) &&
                    precedence(st.top()) >= precedence(c)) {

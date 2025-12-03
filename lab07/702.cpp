@@ -12,7 +12,7 @@ int main() {
         cout << setprecision(3) << (double)h;
     } else {
         cout.setf(ios::scientific);
-        cout << setprecision(3) << (double)h; // e.g., 1.847e+04
+        cout << setprecision(3) << (double)h;
     }
     return 0;
 }

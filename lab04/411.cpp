@@ -15,15 +15,13 @@ int main() {
     for (int i = 0; i < m; i++)
         cin >> b[i];
 
-    // Merge arrays
     vector<int> c;
-    c.reserve(n + m);                  // reserve space for performance
+    c.reserve(n + m);
     c.insert(c.end(), a.begin(), a.end());
     c.insert(c.end(), b.begin(), b.end());
 
-    sort(c.begin(), c.end());          // sort merged array
+    sort(c.begin(), c.end());
 
-    // Output merged sorted array
     for (int x : c)
         cout << x << " ";
 

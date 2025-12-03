@@ -12,8 +12,8 @@ struct Student {
 
 bool cmp(const Student &a, const Student &b) {
     if (a.points != b.points)
-        return a.points > b.points;   // more points first
-    return a.name > b.name;           // if equal points -> name DESC (ASCII)
+        return a.points > b.points;
+    return a.name > b.name;
 }
 
 int main() {

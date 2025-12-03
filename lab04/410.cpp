@@ -11,10 +11,8 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> a[i];
 
-    // Erase consecutive duplicates from sorted array
     a.erase(unique(a.begin(), a.end()), a.end());
 
-    // Output unique elements
     for (int i = 0; i < (int)a.size(); i++)
         cout << a[i] << " ";
 

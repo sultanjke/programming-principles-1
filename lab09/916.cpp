@@ -12,7 +12,7 @@ int main() {
         cin >> prices[i];
 
     vector<int> finalPrice = prices;
-    stack<int> st; // will store indices
+    stack<int> st;
 
     for (int i = 0; i < n; i++) {
 

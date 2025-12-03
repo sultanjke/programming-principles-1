@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int n, l, r;
-    cin >> n >> l >> r;           // read size and range positions
+    cin >> n >> l >> r;
 
     vector<int> a(n);
     for (int i = 0; i < n; i++) {
@@ -12,7 +12,7 @@ int main() {
     }
 
     long long sum = 0;
-    // sum elements from position l to r (1-based indexing)
+
     for (int i = l - 1; i <= r - 1; i++) {
         sum += a[i];
     }

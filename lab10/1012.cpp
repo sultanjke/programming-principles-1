@@ -33,7 +33,6 @@ int main(){
     int a[n];
 
     read_array(a, n);
-    //print_array(a, n);
     cout << max_in_array(a, n);
 
     return 0;

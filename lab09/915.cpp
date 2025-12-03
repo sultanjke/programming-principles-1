@@ -22,7 +22,6 @@ int main() {
         if (x > 0) {
             st.push_back(x);
         } else {
-            // x == 0, so sell top box
             if (!st.empty()) {
                 sold.push_back(st.back());
                 st.pop_back();

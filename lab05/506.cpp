@@ -10,7 +10,7 @@ int main() {
         for (int j = 0; j < n; j++) {
             long long x;
             cin >> x;
-            if (i + j == n - 1)  // condition for secondary diagonal
+            if (i + j == n - 1)
                 sum += x;
         }
     }

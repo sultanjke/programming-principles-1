@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
     int n;
-    cin >> n;                   // read array size
-    long long sum = 0;          // use long long to handle large sums
+    cin >> n;
+    long long sum = 0;
     for (int i = 0; i < n; i++) {
         long long x;
-        cin >> x;               // read each element
-        sum += x;               // add to total
+        cin >> x;
+        sum += x;              
     }
-    cout << sum;                // output the result
+    cout << sum;
     return 0;
 }

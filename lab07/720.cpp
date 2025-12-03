@@ -36,7 +36,6 @@ int main() {
     string expr;
     cin >> expr;
 
-    // find operator
     int opPos = -1;
     char op;
     for (int i = 0; i < expr.size(); i++) {
@@ -56,7 +55,7 @@ int main() {
 
     if (op == '+') z = x + y;
     else if (op == '-') z = x - y;
-    else z = x * y; // op == '*'
+    else z = x * y;
 
     cout << encode(z);
     return 0;

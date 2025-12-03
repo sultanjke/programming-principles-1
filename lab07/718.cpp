@@ -16,7 +16,6 @@ void decToHex(int n) {
         n /= 16;
     }
 
-    // reverse the result
     for (int i = hex.size() - 1; i >= 0; i--)
         cout << hex[i];
 }

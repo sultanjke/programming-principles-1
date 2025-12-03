@@ -4,7 +4,7 @@
 using namespace std;
 
 bool desc(int a, int b) {
-    return a > b;   // sort in descending order
+    return a > b;
 }
 
 int main() {

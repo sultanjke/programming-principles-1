@@ -19,4 +19,4 @@ Head to the - [Syllabus](https://docs.google.com/document/d/1hLphDVFst2P5Z9US0YH
 | **8** | L8. STL (Part 1) | Vector, Set, Map, iterators, STL algorithms | https://github.com/sultanjke/programming-principles-1/tree/main/lab08 | http://ejudge.kz/new-client?contest_id=8 |
 | **9** | L9. STL (Part 2) | Stack, Queue, Deque operations & applications | https://github.com/sultanjke/programming-principles-1/tree/main/lab09 | http://ejudge.kz/new-client?contest_id=9 |
 | **10** | L10. Struct & Pointers | Structs, constructors, pointers, iterating via pointers | https://github.com/sultanjke/programming-principles-1/tree/main/lab10 | http://ejudge.kz/new-client?contest_id=10 |
-| **11** | L11. Recursion | Base case, recursion stack, factorial, power, Fibonacci | upcoming... | upcoming... |
+| **11** | L11. Recursion | Base case, recursion stack, factorial, power, Fibonacci | N/A | http://ejudge.kz/new-client?contest_id=11 |

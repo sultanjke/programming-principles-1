@@ -1,0 +1,11 @@
+1103. Solving the above exercise without recursion is a meaningless job.
+
+1104. There is no point in solving this problem without recursion!
+
+1107. You should use a string because int and long long cannot accept the maximum value of n.
+
+1110. Common divisors of (8, 12) are [1, 2, 4], so the 2nd largest common divisor is 2.
+
+1119. For example, a 4 by 4 matrix on the left is cool, and a 3 by 3 one on the right is not.
+
+1120. In the second example, the continuous area of the void at the 2nd element of the 3rd row of the matrix is 10; therefore, it is the answer.

@@ -1,5 +1,7 @@
 # Programming Principles 1 - 2025 Fall Semester
 
+> **_NOTE:_** It is provided solely for **educational** purposes and **exam preparation**. You may check the solutions if you are genuinely struggling or need guidance, but do not abuse by copying or submitting this collected work. 
+
 ## C++ Laboratory Works
 This repository contains all laboratory works for the course **Programming Principles 1** at **Kazakh-British Technical University** for the Fall 2025 semester, aligned with the official syllabus. Each lab includes solutions and links to the E-judge platform where tasks were completed.
 
@@ -19,4 +21,6 @@ Head to the - [Syllabus](https://docs.google.com/document/d/1hLphDVFst2P5Z9US0YH
 | **8** | L8. STL (Part 1) | Vector, Set, Map, iterators, STL algorithms | https://github.com/sultanjke/programming-principles-1/tree/main/lab08 | http://ejudge.kz/new-client?contest_id=8 |
 | **9** | L9. STL (Part 2) | Stack, Queue, Deque operations & applications | https://github.com/sultanjke/programming-principles-1/tree/main/lab09 | http://ejudge.kz/new-client?contest_id=9 |
 | **10** | L10. Struct & Pointers | Structs, constructors, pointers, iterating via pointers | https://github.com/sultanjke/programming-principles-1/tree/main/lab10 | http://ejudge.kz/new-client?contest_id=10 |
-| **11** | L11. Recursion | Base case, recursion stack, factorial, power, Fibonacci | N/A | http://ejudge.kz/new-client?contest_id=11 |
+| **11** | L11. Recursion | Base case, recursion stack, factorial, power, Fibonacci | https://github.com/sultanjke/programming-principles-1/tree/main/lab11 | http://ejudge.kz/new-client?contest_id=11 |
+
+> **_Attention:_** lab11 contains only task instructions - no solutions.

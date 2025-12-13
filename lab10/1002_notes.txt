@@ -1,0 +1,4 @@
+Notes:
+
+Pay attention to the format of the output - print spaces before and after the ":" sign as it is shown in the example.
+You can use a map to count the words, then put all the elements into a vector of pairs and sort it by writing a comparator for the sort function.

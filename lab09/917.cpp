@@ -1,37 +1,29 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <stack>
+#include <vector>
+#include <string>
 using namespace std;
 
 int precedence(char op) {
-    if (op == '+' || op == '-') return 1;
     if (op == '*' || op == '/') return 2;
+    if (op == '+' || op == '-') return 1;
     return 0;
-}
-
-bool isOperator(char c) {
-    return c=='+' || c=='-' || c=='*' || c=='/';
 }
 
 int main() {
     string s;
     getline(cin, s);
 
-    stack<char> st;
+    stack<char> st;         
     vector<string> output;
-    int n = s.size();
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < (int)s.size(); i++) {
         char c = s[i];
 
         if (c == ' ') continue;
 
-        if (isdigit(c)) {
-            string num;
-            while (i < n && isdigit(s[i])) {
-                num.push_back(s[i]);
-                i++;
-            }
-            i--;
-            output.push_back(num);
+        if (c >= '0' && c <= '9') {
+            output.push_back(string(1, c));
         }
         else if (c == '(') {
             st.push(c);
@@ -41,10 +33,10 @@ int main() {
                 output.push_back(string(1, st.top()));
                 st.pop();
             }
-            st.pop();
+            if (!st.empty() && st.top() == '(') st.pop();
         }
-        else if (isOperator(c)) {
-            while (!st.empty() && isOperator(st.top()) &&
+        else {
+            while (!st.empty() && st.top() != '(' &&
                    precedence(st.top()) >= precedence(c)) {
                 output.push_back(string(1, st.top()));
                 st.pop();
@@ -54,14 +46,15 @@ int main() {
     }
 
     while (!st.empty()) {
-        output.push_back(string(1, st.top()));
+        if (st.top() != '(') output.push_back(string(1, st.top()));
         st.pop();
     }
 
-    for (int i = 0; i < output.size(); i++) {
-        if (i) cout << " ";
+    for (int i = 0; i < (int)output.size(); i++) {
+        if (i) cout << ' ';
         cout << output[i];
     }
+    cout << '\n';
 
     return 0;
 }
